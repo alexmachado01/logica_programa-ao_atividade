@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="pesonumero" content="width=device-width, initial-scale=1.0">
+    <title>numero</title>
+</head>
+<body>
+    <h1> numero </h1>
+    <div id="num"></div>>
+    
+    <script>
+       let n1 = Number(prompt("digite um numero"));
+       let divisao = n1%2
+       let resultado;
+       if (divisao==0) {
+        resultado = "Par";
+
+       }
+        else if (divisao !=0 ){
+ resultado = "impar";
+
+        }   
+    
+       
+     document.getElementById("num").innerHTML = "O numero é: "+resultado;
+    
+     
+
+    </script>
+
+    
+    
+</body>
+</html>

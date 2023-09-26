@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="idade" content="width=device-width, initial-scale=1.0">
+    <title>idade</title>
+</head>
+<body>
+    <h1> atividade </h1>
+    <div id="idade"></div>
+    <script>
+        let nome =prompt("insira o nome da primeira pessoa");
+        let nascimento=prompt("digite o ano de nascimento ");
+        let nome1 =prompt("insira o nome da segunda pessoa");
+        let nascimento1=prompt("insira a data de nascimento")
+       
+        let idade = (2023-nascimento)
+        let idade2= 2023-nascimento1
+        if (nascimento > nascimento1 ) 
+    resultado = nome;
+    
+    else if (nascimento < nascimento1)
+    resultado = nome1;
+    
+    document.getElementById("idade").innerHTML = "Primeira pessoa: " + nome+ "</br>" + "Idade: " + idade + "</br>" + "Segunda pessoa: " + nome1 + "</br>" + "Idade: "  + idade2+ "</br>" + "A pessoa mais nova é: " + resultado;
+
+    </script>
+
+    
+    
+</body>
+</html>

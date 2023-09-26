@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="maiornumero" content="width=device-width, initial-scale=1.0">
+    <title>maiornumero</title>
+</head>
+<body>
+    <h1> atividade </h1>
+    <div id="maiornumero"></div>
+    <script>
+        let numero1 =prompt("insira o primeiro numero");
+        let numero2 =prompt("insira o numero 2");
+        let retorno ="";
+
+        if((parseInt(numero1)) > parseInt(numero2)) {
+            retorno ="O numero "+ numero1 +"é maior que o numero " + numero2
+    }
+    else { 
+
+        retorno ="o numero" +numero2 +"e maior que o numero " + numero1} 
+     document.getElementById("maiornumero").innerHTML = retorno;
+    </script>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="pesonumero" content="width=device-width, initial-scale=1.0">
+    <title>peso</title>
+</head>
+<body>
+    <h1> atividade </h1>
+    <div id="pe1"></div>>
+    
+    <script>
+        let nome1 =prompt("insira o primeiro nome");
+        let peso1=prompt("insira o peso1 ");
+        let nome2 =prompt("insira o segundo nome");
+        let peso2 =prompt("insira o peso 2")
+        let retorno="";
+        if((parseInt(peso1)) > parseInt(peso2)) {
+            retorno ="o peso "+ peso1 +"é maior que o peso2 " + peso2
+    }
+    else { 
+
+        retorno ="o peso"+peso2 +"e maior que o peso "+peso1} 
+     document.getElementById("pe1").innerHTML = "Nome:  "+ nome1+ "</br>"+ "peso: "+ peso1+ "</br>" + 
+     "nome da segunda pessoa: "+ nome2+"</br>" + "segundo peso: "+ peso2 +"</br>";
+     
+     
+
+    </script>
+
+    
+    
+</body>
+</html>
